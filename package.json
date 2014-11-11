@@ -1,16 +1,39 @@
 {
-  "author": "Conner Petzold <cpetzold@gmail.com> (http://the0th.com)",
-  "name": "wordnik",
-  "description": "wordnik api wrapper for node.js",
-  "version": "0.0.2",
+  "name": "wordnik-as-promised",
+  "version": "0.0.1",
+  "description": "Promise-based wrapper for the Wordnik API",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
   "repository": {
     "type": "git",
-    "url": "http://github.com/cpetzold/node-wordnik.git"
+    "url": "https://github.com/BooDoo/node-wordnik-as-promised.git"
   },
-  "engines": {
-    "node": ">= v0.4.8"
+  "keywords": [
+    "wordnik",
+    "promises"
+  ],
+  "author": "Joel McCoy <joelmccoy+github@gmail.com>",
+  "constributors": [
+    "Conner Petzold <cpetzold@gmail.com> (http://the0th.com)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BooDoo/node-wordnik-as-promised/issues"
   },
+  "homepage": "https://github.com/BooDoo/node-wordnik-as-promised",
   "devDependencies": {
-    "expresso": "0.8.x"
+    "chai": "^1.10.0",
+    "chai-as-promised": "^4.1.1",
+    "mocha": "^2.0.1"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "rest": "^1.2.0",
+    "when": "^3.6.0"
   }
 }
