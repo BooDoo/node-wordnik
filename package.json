@@ -26,11 +26,6 @@
     "url": "https://github.com/BooDoo/node-wordnik-as-promised/issues"
   },
   "homepage": "https://github.com/BooDoo/node-wordnik-as-promised",
-  "devDependencies": {
-    "chai": "^1.10.0",
-    "chai-as-promised": "^4.1.1",
-    "mocha": "^2.0.1"
-  },
   "dependencies": {
     "lodash": "^2.4.1",
     "rest": "^1.2.0",
